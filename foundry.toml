@@ -2,5 +2,6 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@hyperlane-xyz/core=lib/hyperlane-monorepo/solidity", "@openzeppelin/contracts=lib/openzeppelin-contracts/contracts", "@openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts", "@wormhole-solidity-sdk/src=lib/wormhole-solidity-sdk",]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
